@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Test Prefs">
+
+        <EditTextPreference
+            app:key="name"
+            app:title="Your name"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="delay"
+            app:title="Millisecond delay between multiplyies"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
